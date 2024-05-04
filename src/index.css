@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #161616;
+  scroll-behavior: calc(100% - 50px);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.push__down {
+  margin-top: 2.5rem;
+}
+
+.img__size {
+  height: 80vh;
+  width: auto;
+}
+
+/* EASE IN & OUT STYLES..
+.about_section {
+  transition: transform 0.5s ease-out;
+}
+*/
+
+.bg_color {
+  background-color: #161616;
+  opacity: 50%;
+}
+.about {
+  color: white;
+}
+
+.orange_color {
+  color: #E24503
+}
+
+.border_orange_color {
+  border: 2px solid #E24503;
+}
+
+.semi_dark_color {
+  background-color: #2A2A2A;
+  padding: 5px;
+}
+
+.w__h__shape {
+  width: 30%;
+  height: 30%;
+  padding: 5px;
+}
+
+textarea::placeholder {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  color: white;
+  background-color: #E24503;
+  transition: transform 0.3s, box-shadow 0.9s;
+  box-shadow: 0 0 20px whitesmoke;
+}
+
+.sticky {
+  position: static;
+  top: 0;
+  z-index: 1000;
+}
+
+.HOV:hover {
+  cursor: pointer;
+  font-weight: 600px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #E24503;
+}
+
+.HOV__2:hover {
+  cursor: pointer;
+  font-weight: 600px;
+  transition: transform 0.4s;
+  transform: scale(1.2);
+  transform: rotate(360deg);
+}
+
+.logo_image {
+  width: 100%;
+  height: 50px; 
+  object-fit: contain;
+}
+
+.nav_expansion {
+  text-decoration: none;
+  margin: 5px;
+  color: #E24503;
+}
+ 
+.footer__part {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.adjust_img_size {
+  width: 100%;
+  height: 40vh;
+}
+
+.btn__bg {
+  background-color: #E24503;
+}
+
+.wht__text__change:hover {
+  color: #E24503;
+}
+
+.boxxy:hover {
+  box-shadow: 0 0 20px black;
+}
+
+.horizontal_line_color {
+  color: #E24503;
+}
