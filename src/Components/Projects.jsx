@@ -7,7 +7,12 @@ const Projects = () => {
     <>
       {/* MY_PROJECTS_LINKS... */}
 
-      <section className="" id="projects" aria-label="Projects">
+      <section
+        className=""
+        id="projects"
+        aria-label="Projects"
+        data-aos="flip-left"
+      >
         <h2 className="orange_color text-center"> Projects </h2>
 
         <div className="d-flex justify-content-center align-items-center w-100 container text-white">
@@ -74,6 +79,8 @@ const Projects = () => {
           {/* To here */}
         </div>
       </section>
+
+      {/* Pagination button... */}
       <div className="d-flex justify-content-center align-items-center mt-4">
         <button className=" orange_color border_orange_color text-center px-5 rounded-3 py-1">
           see more
