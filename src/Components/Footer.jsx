@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
 
         <p className="text-white text-center">
-          Copyright &copy; Solomon Uzoma 2024.
+          Copyright &copy; Solomon Dikeogu 2024.
         </p>
         
       </div>

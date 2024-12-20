@@ -47,7 +47,7 @@ const About = () => {
             </div>
 
             <div className="col-lg-6 text-white mt-5" data-aos="fade-left">
-              <h1 className="bio orange_color"> Hi, my name is Solomon Uzoma</h1>
+              <h1 className="bio orange_color"> Hi, my name is Solomon Dikeogu</h1>
               <h5 className="bio">I'm a Frontend Developer.</h5>
               <br />
 
