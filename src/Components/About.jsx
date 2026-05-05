@@ -7,7 +7,7 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
-import ProfileImage from "../images/profile_image.png";
+import ProfileImage from "../images/profile_pic.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
