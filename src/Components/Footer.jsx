@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   // Opens the {CV / RESUME} in a new window tab to be downloaded...
   const handleCvDownload = () => {
-    window.open("/my-cv.pdf", "_blank");
+    window.open("/Dikeogu CV_updated.pdf", "_blank");
   };
 
   // My whatsapp link...
@@ -72,9 +72,8 @@ const Footer = () => {
         </div>
 
         <p className="text-white text-center">
-          Copyright &copy; Solomon Dikeogu 2024.
+          Copyright &copy; Solomon Dikeogu 2026.
         </p>
-        
       </div>
     </footer>
   );

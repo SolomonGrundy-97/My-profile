@@ -130,3 +130,7 @@ button:hover {
 .horizontal_line_color {
   color: #E24503;
 }
+
+/* .nounderlining{
+  text-decoration: none;
+}     still will remove the see more <a> underline later. */

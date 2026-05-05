@@ -1,6 +1,6 @@
 import React from "react";
-import Saloon_img from "../images/saloon-project-image (2).jpg";
-import Geo_world_img from "../images/geo-world-project-image (2).jpg";
+import Saloon_img from "../images/salon_img.jpeg";
+import Payment_App from "../images/payment_app.jpeg";
 
 const Projects = () => {
   return (
@@ -25,19 +25,20 @@ const Projects = () => {
               <img
                 src={Saloon_img}
                 class="card-img-top adjust_img_size"
-                alt="my-saloon-project-image"
+                alt="my-saloon-project"
               />
               <div className="card-body">
                 <h5 className="card-title">Saloon project</h5>
                 <p className="card-text">
-                  A saloon project built with html, css, bootstrap and a little
-                  bit of javaScript.
+                  A saloon project built with React, Bootstrap/CSS and
+                  TypeScript. This website allows customers to be able to book a
+                  hair stylist for a service.
                 </p>
 
                 {/* PROJECT_LINK HERE */}
 
                 <a
-                  href="https://my-saloon.vercel.app"
+                  href="https://trimz-n-styles.vercel.app/"
                   className="text-decoration-none text-white"
                 >
                   <button className=" btn__bg p-2 rounded-2 boxxy">View</button>
@@ -51,21 +52,22 @@ const Projects = () => {
             >
               <div className="container">
                 <img
-                  src={Geo_world_img}
+                  src={Payment_App}
                   className="card-img-top adjust_img_size"
-                  alt="my-geo-world-project-image"
+                  alt="payment app"
                 />
               </div>
               <div className="card-body">
-                <h5 className="card-title">Geo-world project</h5>
+                <h5 className="card-title">Payment App</h5>
                 <p className="card-text">
-                  A simple website that tells a little about mammals life spam.
+                  A Transactional web/app for receiving and sending funds. Biult
+                  with React js and Tailwind CSS.
                 </p>
 
                 {/* PROJECT_LINK HERE */}
 
                 <a
-                  href="https://animal-world-gamma.vercel.app"
+                  href="https://nfc-payment-app-beta.vercel.app/"
                   className="text-decoration-none text-white wht__text__change"
                 >
                   <button className="btn__bg p-2 rounded-2 boxxy">
@@ -81,11 +83,14 @@ const Projects = () => {
       </section>
 
       {/* Pagination button... */}
-      <div className="d-flex justify-content-center align-items-center mt-4">
+      <a
+        href="https://github.com/SolomonGrundy-97?tab=repositories"
+        className="d-flex justify-content-center align-items-center mt-4"
+      >
         <button className=" orange_color border_orange_color text-center px-5 rounded-3 py-1">
-          see more
+          see more 👉
         </button>
-      </div>
+      </a>
 
       <hr className="horizontal_line_color" />
     </>
