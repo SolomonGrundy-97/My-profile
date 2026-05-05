@@ -7,7 +7,7 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
-import ProfileImage from "../images/profile_image.png";
+import ProfileImage from "../images/profile_image.png"; // replace this image with a new one...
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -21,7 +21,7 @@ const About = () => {
 
   //My whatsapp link...
   const whatsAppLink =
-    "https://wa.me/2349097441714?text=Hello%20%F0%9F%91%8B%20thank%20you%20for%20contacting%20Uzoma%20Solomon%2C%20how%20can%20I%20help%20you%20please%3F%20%F0%9F%98%8A";
+    "https://wa.me/2349097441714?text=Hello%20%F0%9F%91%8B%20thank%20you%20for%20contacting%20Solomon%20Dikeogu%2C%20how%20can%20I%20help%20you%20please%3F%20%F0%9F%98%8A";
 
   // My linkedin link...
   const LinkedInLink =
@@ -47,8 +47,11 @@ const About = () => {
             </div>
 
             <div className="col-lg-6 text-white mt-5" data-aos="fade-left">
-              <h1 className="bio orange_color"> Hi, my name is Solomon Dikeogu</h1>
-              <h5 className="bio">I'm a Frontend Developer.</h5>
+              <h1 className="bio orange_color">
+                {" "}
+                Hi, my name is Solomon Dikeogu
+              </h1>
+              <h5 className="bio">I'm a Web/App Developer.</h5>
               <br />
 
               <button className="rounded-3 orange_color border_orange_color px-5 py-2 mb-4">
